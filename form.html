@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="stylesheets/form.css" />
+</head>
+<body>
+
+<h2 style="text-align: center">Event Form</h2>
+<p style="text-align: center">This all fields are mandatory to fill up.</p>
+<div class="container">
+  <form action="/action_page.php">
+  <div class="row">
+    <div class="col-25">
+      <label for="e_name">Event Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="e_name" name="event_name" placeholder="Event name.." required>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="clg_name">College Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="c_name" name="clg_name" placeholder="Your College name.." required> 
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="location">Location</label>
+    </div>
+    <div class="col-75">
+        <input type="text" id="loc" name="Location" placeholder="Event Location.." required>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="date">Date</label>
+    </div>
+    <div class="col-75">
+      <input type="date" id="date" name="Date">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="Time">Time</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="Time" name="time" placeholder="In 24 Hours Format.." required>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="Category">Priority</label>
+    </div>
+    <div class="col-75">
+      <select id="priority" name="Priority">
+        <option value="Highest">Highest</option>
+        <option value="High">High</option>
+        <option value="Medium">Medium</option>
+        <option value="Low">Low</option>
+        <option value="Lowest">Lowest</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="Category">Category</label>
+    </div>
+    <div class="col-75">
+      <select id="category" name="Category">
+        <option value="Technical">Technical</option>
+        <option value="Non-Technical">Non-Technical</option>
+        <option value="Workshop">Workshop</option>
+        <option value="Seminar">Seminar</option>
+        <option value="Other">Other</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="ex_info">Extra Information</label>
+    </div>
+    <div class="col-75">
+        <input type="text" id="ex_info" name="info" placeholder="Main Head Line for event .." required>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="info">About Event</label>
+    </div>
+    <div class="col-75">
+      <textarea id="about_text" name="about" placeholder="Detailed Information about Events.." style="height:200px"></textarea>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="photo">Upload Picture</label>
+    </div>
+    <div class="col-75">
+        <input type="file" id="pic" name="Picture" placeholder="Main Head Line for event .." required>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <input type="submit" value="Submit">
+  </div>
+  </form>
+</div>
+
+</body>
+</html>

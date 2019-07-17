@@ -1,0 +1,64 @@
+.my_button{
+  position: relative;
+  border: 1px solid rgb(0, 8, 3);
+  margin: auto;
+  width: 80%;
+}
+
+.container{
+  position: relative;
+  /* border: 1px solid rgb(18, 0, 184); */
+  margin: auto;
+  width: 80%;
+}
+
+.button{
+  position: relative;
+  /* border: 3px solid rgb(8, 0, 2); */
+  margin: auto;
+  width: 100%;
+  height: auto;
+  /* padding: 5px; */
+  float: center;
+}
+.button-align{
+  /* border: 3px solid rgb(46, 20, 196); */
+  position: relative;
+  margin-left: 37%;
+  float: center;
+}
+
+h2,p{
+  text-align: center;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2
+}
+.btn {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.insert {background-color: #4CAF50;} /* Green */
+.insert:hover {background-color: #46a049;}
+
+.update {background-color: #ff9800;} /* Orange */
+.update:hover {background: #e68a00;}
+
+.delete {background-color: #f44336;} /* Red */ 
+.delete:hover {background: #da190b;}
